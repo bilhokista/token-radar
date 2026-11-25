@@ -329,6 +329,16 @@ export function farmSteps(p: SnapshotProtocol, age: number | null): FarmStep[] {
       time: '15 minutes to set up',
     },
     {
+      text: `Join the protocol's Discord and Telegram channels to stay informed on announcements and community discussions.`,
+      cost: 'free',
+      time: '15 minutes setup, 5 minutes daily',
+    },
+    {
+      text: `Monitor governance forums for proposals. Participate in voting or delegate your voting power if applicable.`,
+      cost: 'minimal gas for voting, if any',
+      time: '30 minutes weekly',
+    },
+    {
       text: `Make one qualifying action each week, such as a deposit, a borrow, a swap or a vote.`,
       cost: 'about $2 of gas a week',
       time: '10 minutes a week',
